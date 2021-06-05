@@ -29,7 +29,10 @@ st.write("### Instructions: ")
 st.write("Read the questions thoroughly and move the slider towards \
          the answer where you feel most inclined. For example, if you  \
          find answer A most in line with your thoughts, move the slider \
-         all the way to the left, else, move the slider to the right.")
+         all the way to the left, i.e., number 0. Number 2 signifies slight \
+         inclination towards option A and 3 signifies slight inclination \
+         towards option B. Similarly, number 5 signifies that you completely \
+         agree with option B.")
 
 with st.form("Johari Window Form"):
     for i in range(1,NUM_QUESTIONS+1):
