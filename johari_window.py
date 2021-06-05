@@ -40,7 +40,7 @@ with st.form("Johari Window Form"):
         st.write(questions_dict["Q"+str(i)])
         st.write("> **A** ) {}".format(questions_dict["Q" + str(i) + "a"]))
         st.write("> **B** ) {}".format(questions_dict["Q" + str(i) + "b"]))
-        qscore[i-1] = st.slider("Answer:", 0, 5, step=1, key=str(i))
+        qscore[i] = st.slider("Answer:", 0, 5, step=1, key=str(i))
     submitted = st.form_submit_button("Check Results!")
 
     solicit_score = get_score(qscore, SOLICITS_FEEDBACK)
