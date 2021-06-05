@@ -4,4 +4,4 @@ The Johari window has been used as a psychological tool for assess your knowledg
 
 This is a Streamlit-powered application which can automatically calculate the scores based on the answers to the questions in the questionnarie. 
 
-[Live demo link](https://bit.ly/johari-window)
+[Live demo link](https://bit.ly/johari-window-questions)
